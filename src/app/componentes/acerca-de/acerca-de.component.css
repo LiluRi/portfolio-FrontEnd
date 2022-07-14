@@ -1,0 +1,19 @@
+.row{
+    padding: 15px;
+}
+div{
+    background-color: black;
+    color: white;
+}
+@media(min-width:576px){
+#foto{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    border-radius: 50%;
+    top:700px;
+}
+}
+.acercademi{
+    margin-top:100px;
+}

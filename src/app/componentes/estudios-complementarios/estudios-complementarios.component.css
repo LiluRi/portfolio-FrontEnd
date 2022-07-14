@@ -1,0 +1,29 @@
+hr {
+    background-color: white;
+  }
+.row{
+    padding: 15px;
+}
+div{
+    background-color: black;
+    color: white;
+}
+.unlz{
+    width: 50px;
+    height: 70px;
+}
+.codoacodo{
+    width: 120px;
+    height: 70px;
+}
+.polotic{
+    width: 130px;
+    height: 70px;
+}
+.cilsa{
+    width: 130px;
+    height: 70px;
+}
+.education{
+    padding-left: 50px;
+}
