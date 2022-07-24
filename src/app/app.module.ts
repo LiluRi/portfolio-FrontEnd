@@ -11,6 +11,7 @@ import { LogoApComponent } from './componentes/logo-ap/logo-ap.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { BannerComponent } from './componentes/banner/banner.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
