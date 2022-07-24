@@ -12,6 +12,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     LogoApComponent,
     HeaderComponent,
     RedesSocialesComponent,
-    BannerComponent
+    BannerComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
